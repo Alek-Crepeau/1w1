@@ -1,0 +1,12 @@
+.Tableau {
+  border-collapse: collapse;
+  border: solid 1px gray;
+}
+.Tableau td,
+.Tableau th {
+  border: 1px solid black;
+  padding: 5px;
+}
+.Tableau th {
+  background-color: rgb(62, 51, 129);
+}

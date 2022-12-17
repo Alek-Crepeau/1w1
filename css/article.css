@@ -1,0 +1,16 @@
+.a,
+.b {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.a div,
+.b div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+#article p {
+  width: 500px;
+}

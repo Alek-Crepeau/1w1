@@ -1,0 +1,17 @@
+#inscription {
+  flex-direction: column;
+}
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulaire label {
+  margin: 10px 0 0 0;
+}
+.formulaire input,
+.formulaire label {
+  width: 200px;
+}

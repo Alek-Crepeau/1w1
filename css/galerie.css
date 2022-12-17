@@ -1,0 +1,17 @@
+.image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.image div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: fit-content;
+  height: fit-content;
+}
+.image img {
+  width: 50%;
+  height: 50%;
+}

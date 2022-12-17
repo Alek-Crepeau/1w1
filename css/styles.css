@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px #bbb;
+}
+/*menu principale du site. on utilise un positionnement fixe pour que le menu reste en haut de chacune des section*/
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-around;
+  background-color: lightseagreen;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#acceuil {
+  background-color: aliceblue;
+  flex-direction: column;
+}
+#inscription {
+  background-color: aqua;
+}
+#galerie {
+  background-color: aquamarine;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#Tableau {
+  background-color: darkslateblue;
+  flex-direction: column;
+}
+/*#Tableau td {
+  border: 1px solid black;
+}*/
+#article {
+  background-color: honeydew;
+  flex-direction: column;
+}
+#video {
+  background-color: blueviolet;
+}
+#footer {
+  background-color: red;
+}
+a {
+  display: block;
+  padding: 10px;
+  color: black;
+}
+nav a:hover {
+  background-color: rgb(23, 168, 160);
+}
+a::after {
+  background-color: black;
+}
+
+#footer {
+  background-color: rgb(0, 1, 12);
+  color: azure;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+#footer a {
+  margin: 10px;
+  color: azure;
+}
+
+.sociaux a {
+  margin: 10px;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.sociaux img {
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+}
